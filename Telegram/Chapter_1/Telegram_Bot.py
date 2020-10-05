@@ -1,6 +1,6 @@
 from telegram.ext import Updater, CommandHandler
 # use_context 主要是版本問題，暫時先不能改成True，否則下面的功能是無法顯示的
-updater = Updater(token='YOUR_TOKEN', use_context=False)
+updater = Updater(token='1247750818:AAErgwD1_cGAfB-FuMMLgcueKXc0AnIwBtk', use_context=False)
 
 
 def getYourInformation(bot, update):
